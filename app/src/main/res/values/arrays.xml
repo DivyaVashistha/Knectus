@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="list">
+        <item>@string/feedbacktype1</item>
+        <item>@string/feedbacktype2</item>
+        <item>@string/feedbacktype3</item>
+        <item>@string/feedbacktype4</item>
+    </string-array>
+    <string-array name="list2">
+        <item>@string/feedbacktype11</item>
+        <item>@string/feedbacktype22</item>
+        <item>@string/feedbacktype33</item>
+        <item>@string/feedbacktype44</item>
+    </string-array>
+    <string-array name="list3">
+        <item>@string/feedbacktype111</item>
+        <item>@string/feedbacktype222</item>
+        <item>@string/feedbacktype333</item>
+        <item>@string/feedbacktype444</item>
+    </string-array>
+    <string-array name="list4">
+        <item>@string/feedbacktype1111</item>
+        <item>@string/feedbacktype2222</item>
+        <item>@string/feedbacktype3333</item>
+        <item>@string/feedbacktype4444</item>
+    </string-array>
+    <string-array name="list5">
+        <item>@string/feedbacktype15</item>
+        <item>@string/feedbacktype25</item>
+        <item>@string/feedbacktype35</item>
+        <item>@string/feedbacktype45</item>
+    </string-array>
+    <string-array name="list6">
+        <item>@string/feedbacktype16</item>
+        <item>@string/feedbacktype26</item>
+        <item>@string/feedbacktype36</item>
+        <item>@string/feedbacktype46</item>
+    </string-array>
+    <string-array name="list7">
+        <item>@string/feedbacktype17</item>
+        <item>@string/feedbacktype27</item>
+        <item>@string/feedbacktype37</item>
+        <item>@string/feedbacktype47</item>
+    </string-array>
+    <string-array name="list8">
+        <item>@string/feedbacktype18</item>
+        <item>@string/feedbacktype28</item>
+        <item>@string/feedbacktype38</item>
+        <item>@string/feedbacktype48</item>
+    </string-array>
+    <string-array name="list9">
+        <item>@string/feedbacktype19</item>
+        <item>@string/feedbacktype29</item>
+        <item>@string/feedbacktype39</item>
+        <item>@string/feedbacktype49</item>
+    </string-array>
+    <string-array name="list10">
+        <item>@string/feedbacktype10</item>
+        <item>@string/feedbacktype20</item>
+        <item>@string/feedbacktype30</item>
+        <item>@string/feedbacktype40</item>
+    </string-array>
+    <string-array name="list11">
+        <item>@string/feedbacktype1a</item>
+        <item>@string/feedbacktype21</item>
+        <item>@string/feedbacktype31</item>
+        <item>@string/feedbacktype41</item>
+    </string-array>
+    <string-array name="list12">
+        <item>@string/feedbacktype112</item>
+        <item>@string/feedbacktype212</item>
+        <item>@string/feedbacktype312</item>
+        <item>@string/feedbacktype412</item>
+    </string-array>
+    <string-array name="list13">
+        <item>@string/feedbacktype113</item>
+        <item>@string/feedbacktype213</item>
+        <item>@string/feedbacktype313</item>
+        <item>@string/feedbacktype413</item>
+    </string-array>
+    <string-array name="list14">
+        <item>@string/feedbacktype114</item>
+        <item>@string/feedbacktype214</item>
+        <item>@string/feedbacktype314</item>
+        <item>@string/feedbacktype414</item>
+    </string-array>
+    <string-array name="list15">
+        <item>@string/feedbacktype115</item>
+        <item>@string/feedbacktype215</item>
+        <item>@string/feedbacktype315</item>
+        <item>@string/feedbacktype415</item>
+    </string-array>
+    <string-array name="list16">
+        <item>@string/feedbacktype116</item>
+        <item>@string/feedbacktype216</item>
+        <item>@string/feedbacktype316</item>
+        <item>@string/feedbacktype416</item>
+    </string-array>
+</resources>

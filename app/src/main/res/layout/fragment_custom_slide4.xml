@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<agency.tango.materialintroscreen.parallax.ParallaxLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="306dp"
+        android:layout_height="510dp"
+        android:layout_margin="40dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:src="@mipmap/ic_launcher" />
+
+
+        <TextView
+            android:id="@+id/tView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:fontFamily="cursive"
+            android:text="ME V/S HUMANS "
+            android:textColor="@android:color/black"
+            android:textSize="40dp" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="270dp"
+            android:layout_height="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="160dp"
+            android:background="@android:color/black" />
+
+        <TextView
+            android:id="@+id/tView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/view"
+            android:layout_marginTop="33dp"
+            android:text="If i could sum up my life, i would die of "
+            android:textColor="@android:color/black"
+            android:textSize="20dp" />
+
+
+        <Spinner
+            android:id="@+id/Spinner11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignBaseline="@+id/tView3"
+            android:layout_alignBottom="@+id/tView3"
+            android:layout_alignEnd="@+id/imageView"
+            android:layout_alignRight="@+id/imageView"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:entries="@array/list11"
+            android:prompt="@array/list11"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tView2"
+            android:layout_toEndOf="@+id/Spinner11"
+            android:layout_toRightOf="@+id/Spinner11"
+            android:text="I wish people"
+            android:textColor="@android:color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tView2"
+            android:text="had a "
+            android:textColor="@android:color/black"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/Spinner12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:entries="@array/list12"
+            android:prompt="@array/list12"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/tView4"
+            android:layout_toEndOf="@+id/tView4" />
+
+        <TextView
+            android:id="@+id/tView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="button. I dont  "
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:layout_below="@+id/tView2"
+            android:layout_toRightOf="@+id/Spinner12"
+            android:layout_toEndOf="@+id/Spinner12" />
+        <TextView
+            android:id="@+id/tView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="give up on my dreams, I keep "
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:layout_below="@+id/tView4"
+            android:layout_alignLeft="@+id/tView1"
+            android:layout_alignStart="@+id/tView1" />
+        <Spinner
+            android:id="@+id/Spinner13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:entries="@array/list13"
+            android:prompt="@array/list13"
+            android:textSize="20sp"
+            android:layout_below="@+id/tView6"
+            android:layout_alignLeft="@+id/tView6"
+            android:layout_alignStart="@+id/tView6" />
+        <TextView
+            android:id="@+id/tView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My alone time is for "
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:layout_below="@+id/tView6"
+            android:layout_alignRight="@+id/tView3"
+            android:layout_alignEnd="@+id/tView3" />
+        <Spinner
+            android:id="@+id/Spinner14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:entries="@array/list14"
+            android:prompt="@array/list14"
+            android:textSize="20sp"
+            android:layout_below="@+id/Spinner13"
+            android:layout_alignLeft="@+id/Spinner13"
+            android:layout_alignStart="@+id/Spinner13" />
+        <TextView
+            android:id="@+id/tView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I am allergic to "
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:layout_below="@+id/tView7"
+            android:layout_alignLeft="@+id/tView7"
+            android:layout_alignStart="@+id/tView7" />
+        <Spinner
+            android:id="@+id/Spinner16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:entries="@array/list16"
+            android:prompt="@array/list16"
+            android:textSize="20sp"
+            android:layout_below="@+id/Spinner15"
+            android:layout_alignLeft="@+id/Spinner15"
+            android:layout_alignStart="@+id/Spinner15" />
+        <TextView
+            android:id="@+id/tView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="and i break out in "
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:layout_below="@+id/tView8"
+            android:layout_alignLeft="@+id/tView8"
+            android:layout_alignStart="@+id/tView8" />
+        <Spinner
+            android:id="@+id/Spinner15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:entries="@array/list15"
+            android:prompt="@array/list15"
+            android:textSize="20sp"
+            android:layout_below="@+id/Spinner14"
+            android:layout_alignLeft="@+id/Spinner14"
+            android:layout_alignStart="@+id/Spinner14" />
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="@string/check_to_pass"
+            app:layout_parallaxFactor="0.4" />
+
+
+    </RelativeLayout>
+</agency.tango.materialintroscreen.parallax.ParallaxLinearLayout>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<agency.tango.materialintroscreen.parallax.ParallaxLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="306dp"
+        android:layout_height="480dp"
+        android:layout_margin="40dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp" />
+
+        <TextView
+            android:id="@+id/tView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:fontFamily="cursive"
+            android:text="ABOUT ME "
+            android:textColor="@android:color/black"
+            android:textSize="40dp" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="270dp"
+            android:layout_height="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="160dp"
+            android:background="@android:color/black" />
+
+        <TextView
+            android:id="@+id/tView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/view"
+            android:layout_marginTop="33dp"
+            android:text="You can call me "
+            android:textColor="@android:color/black"
+            android:textSize="20dp" />
+
+
+        <Spinner
+            android:id="@+id/Spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignTop="@+id/tView2"
+            android:layout_toEndOf="@+id/tView2"
+            android:layout_toRightOf="@+id/tView2"
+            android:entries="@array/list"
+            android:prompt="@array/list"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tView2"
+            android:text="and I am "
+            android:textColor="@android:color/black"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/Spinner2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/tView2"
+            android:layout_toEndOf="@+id/tView3"
+            android:layout_toRightOf="@+id/tView3"
+            android:entries="@array/list2"
+            android:prompt="@array/list2"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Spinner"
+            android:layout_toEndOf="@+id/Spinner2"
+            android:layout_toRightOf="@+id/Spinner2"
+            android:text="since "
+            android:textColor="@android:color/black"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/Spinner3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tView3"
+            android:entries="@array/list3"
+            android:prompt="@array/list3"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Spinner2"
+            android:layout_toEndOf="@+id/Spinner3"
+            android:layout_toRightOf="@+id/Spinner3"
+            android:text="I am currently working"
+            android:textColor="@android:color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Spinner3"
+            android:text="towards  "
+            android:textColor="@android:color/black"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/Spinner4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignBaseline="@+id/tView6"
+            android:layout_alignBottom="@+id/tView6"
+            android:layout_toEndOf="@+id/tView6"
+            android:layout_toRightOf="@+id/tView6"
+            android:entries="@array/list4"
+            android:prompt="@array/list4"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tView5"
+            android:layout_toEndOf="@+id/Spinner4"
+            android:layout_toRightOf="@+id/Spinner4"
+            android:text=",with an "
+            android:textColor="@android:color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tView6"
+            android:text="emphasis in fantacy "
+            android:textColor="@android:color/black"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/Spinner5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/Spinner4"
+            android:layout_toEndOf="@+id/Spinner4"
+            android:layout_toRightOf="@+id/Spinner4"
+            android:entries="@array/list5"
+            android:prompt="@array/list5"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Spinner5"
+            android:text="Anyone with  questionable survival instincts should contact me on  "
+            android:textColor="@android:color/black"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/tView1"
+            android:layout_alignRight="@+id/tView1"
+            android:layout_below="@+id/Spinner5"
+            android:layout_marginTop="42dp"
+            android:hint="email_id" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check_to_pass"
+            app:layout_parallaxFactor="0.4"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="22dp" />
+
+
+    </RelativeLayout>
+</agency.tango.materialintroscreen.parallax.ParallaxLinearLayout>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<agency.tango.materialintroscreen.parallax.ParallaxLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="306dp"
+        android:layout_height="510dp"
+        android:layout_margin="40dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:src="@mipmap/ic_launcher" />
+
+
+        <TextView
+            android:id="@+id/tView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:fontFamily="cursive"
+            android:text="MY WHIMS "
+            android:textColor="@android:color/black"
+            android:textSize="40dp" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="270dp"
+            android:layout_height="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="160dp"
+            android:background="@android:color/black" />
+
+        <TextView
+            android:id="@+id/tView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/view"
+            android:layout_marginTop="33dp"
+            android:text="I am a life form evolved to live off "
+            android:textColor="@android:color/black"
+            android:textSize="20dp" />
+
+
+        <Spinner
+            android:id="@+id/Spinner6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignLeft="@+id/tView6"
+            android:layout_alignStart="@+id/tView6"
+            android:layout_below="@+id/tView2"
+            android:entries="@array/list6"
+            android:prompt="@array/list6"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I wonder, is "
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:layout_below="@+id/tView2"
+            android:layout_centerHorizontal="true" />
+
+        <Spinner
+            android:id="@+id/Spinner7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:entries="@array/list7"
+            android:prompt="@array/list7"
+            android:textSize="20sp"
+            android:layout_alignLeft="@+id/Spinner6"
+            android:layout_alignStart="@+id/Spinner6"
+            android:layout_below="@+id/Spinner6" />
+
+        <TextView
+            android:id="@+id/tView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="an emotion because I "
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:layout_below="@+id/tView3"
+            android:layout_toRightOf="@+id/Spinner7"
+            android:layout_toEndOf="@+id/Spinner7" />
+        <TextView
+            android:id="@+id/tView41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="feel it all the time. When I feel lonely, I put on a  "
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:layout_below="@+id/Spinner7"
+            android:layout_alignRight="@+id/tView2"
+            android:layout_alignEnd="@+id/tView2" />
+
+        <Spinner
+            android:id="@+id/Spinner8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:entries="@array/list8"
+            android:prompt="@array/list8"
+            android:textSize="20sp"
+            android:layout_alignBottom="@+id/tView41"
+            android:layout_alignRight="@+id/tView1"
+            android:layout_alignEnd="@+id/tView1" />
+
+        <TextView
+            android:id="@+id/tView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="and I dont feel alone anymore. The type of exercise i do is  "
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_below="@+id/tView41"
+            android:layout_alignLeft="@+id/tView6"
+            android:layout_alignStart="@+id/tView6" />
+        <Spinner
+            android:id="@+id/Spinner9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:entries="@array/list9"
+            android:prompt="@array/list9"
+            android:textSize="20sp"
+            android:layout_below="@+id/tView5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/tView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I could kill for "
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_below="@+id/Spinner9"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <Spinner
+            android:id="@+id/Spinner10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:entries="@array/list10"
+            android:prompt="@array/list10"
+            android:textSize="20sp"
+            android:layout_alignTop="@+id/tView6"
+            android:layout_alignLeft="@+id/imageView"
+            android:layout_alignStart="@+id/imageView" />
+        <TextView
+            android:id="@+id/tView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="but I          "
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_alignTop="@+id/Spinner10"
+            android:layout_toRightOf="@+id/Spinner10"
+            android:layout_toEndOf="@+id/Spinner10" />
+        <TextView
+            android:id="@+id/tView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dont want to spoil my descendants over it!          "
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_below="@+id/tView6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check_to_pass"
+            app:layout_parallaxFactor="0.4"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+    </RelativeLayout>
+</agency.tango.materialintroscreen.parallax.ParallaxLinearLayout>
